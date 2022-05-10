@@ -1,0 +1,15 @@
+.product_container > p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1b26;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+
+.addButton{
+    width: 100%;
+}

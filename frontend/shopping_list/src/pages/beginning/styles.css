@@ -4,7 +4,21 @@
     margin-right: auto;
 }
 
+.beginnig_container > section > p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a1b26;
+    margin-top: 1em;
+}
+
+.beginning_container {
+    height: inherit;
+    width: inherit;
+}
+
 #logo {
-    height: 10em;
-    width: 10em;
+    font-size: 12em;
+    color: #f7768e;
+    text-align: center;
 }

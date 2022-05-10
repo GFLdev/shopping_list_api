@@ -2,6 +2,7 @@
 
 .main {
     height: 100vh;
+    font-family: Cambria;
 }
 
 .main_content {
@@ -10,19 +11,78 @@
 
 .header {
     background-color: #414868;
+    color: #c0caf5;
+}
+
+.header_menu {
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home {
+    font-size: 18px;
+    font-weight: bold;
+    color: #a9b1d6 !important;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    color: #a9b1d6 !important;
+    font-size: 18px;
+}
+
+.contact:hover, .home:hover {
+    color: #f7768e !important;
 }
 
 .menu {
     background-color: #24283b;
-    padding: 2em;
 }
 
 .menu_section {
-    background-color: inherit;
+    background-color: #414868;
+    color: #a9b1d6;
+    margin: 1.2em;
+    padding: 8px;
+}
+
+.menu_logo {
+    color: #f7768e;
+    font-size: 4em;
+    text-align: center;
+}
+
+.menu_item::after,
+.menu_section {
+    border: none !important;
+    transition: none !important;
+    background-color: #414868;
+}
+
+.menu_section {
+    border-radius: 8px;
+}
+
+.menu_item:hover {
+    color: #f7768e !important;
+}
+
+.menu_item:active {
+    background-color: #414868 !important;
 }
 
 .footer {
     background-color:  #414868;
     text-align: center;
     font-weight: bold;
+    color: #a9b1d6;
 }

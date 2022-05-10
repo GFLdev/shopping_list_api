@@ -1,0 +1,28 @@
+.product_edit{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1em;
+    margin: auto;
+}
+
+.product_area{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.product_label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product_container > p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1b26;
+}
+
+.edit_button{
+    width: 100%;
+}
